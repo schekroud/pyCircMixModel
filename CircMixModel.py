@@ -3,7 +3,7 @@
 """
 Created on Fri Jun  8 14:12:34 2018
 
-@author: sammi
+@author: Sammi Chekroud
 """
 
 import numpy as np
@@ -173,4 +173,4 @@ def mixmodel_fit(X, T, NT):
                     W = w
     
     return B, LL, W
-#%% #tmp = np.array(np.meshgrid(K, N, U)).T.reshape(-1,3)
+#%%
